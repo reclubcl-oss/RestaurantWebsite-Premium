@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Experience | Sabor y Elegancia</title>
+    <meta name="description" content="Descubre una experiencia culinaria única con ingredientes frescos y un ambiente exclusivo. Reserva tu mesa hoy.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#">GOURMET<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservations">Reservas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#reservations" class="btn btn-primary">Reservar Mesa</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1 class="fade-in">El Arte de la <br><span>Alta Cocina</span></h1>
+                <p class="fade-in">Una sinfonía de sabores diseñados para cautivar tus sentidos. Vive una experiencia gastronómica sin igual.</p>
+                <div class="hero-buttons fade-in">
+                    <a href="#menu" class="btn btn-secondary">Ver Menú</a>
+                    <a href="#reservations" class="btn btn-outline">Reservar Ahora</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section container section-padding">
+            <div class="section-header">
+                <span class="sub-title">Nuestra Selección</span>
+                <h2 class="section-title">Menú de Temporada</h2>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h3>Solomillo al Vino Tinto</h3>
+                        <p>Carne de primera con reducción de malbec y puré trufado.</p>
+                    </div>
+                    <span class="price">$28</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h3>Salmón en Crosta de Eneldo</h3>
+                        <p>Filete de salmón fresco con costra de hierbas y espárragos al grill.</p>
+                    </div>
+                    <span class="price">$24</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h3>Risotto de Hongos Silvestres</h3>
+                        <p>Arroz carnaroli con variedad de setas del bosque y aceite de trufa blanca.</p>
+                    </div>
+                    <span class="price">$22</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <h3>Carpaccio de Wagyu</h3>
+                        <p>Finas láminas de Wagyu, alcaparras, parmesano de 24 meses y rúcula.</p>
+                    </div>
+                    <span class="price">$19</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservations Section -->
+        <section id="reservations" class="reservations-section section-padding">
+            <div class="container reservation-container">
+                <div class="reservation-info">
+                    <h2>Reserva tu <br>Mesa</h2>
+                    <p>Asegura tu lugar en nuestra próxima velada exclusiva. Cupos limitados.</p>
+                </div>
+                <form id="reservation-form" class="reservation-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="time" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Confirmar Reserva</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section-padding">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">GOURMET<span>.</span></div>
+                <p>Pasión por la gastronomía, compromiso con la excelencia.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#reservations">Reservas</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>Av. Principal 123, Ciudad</p>
+                <p>+56 9 1234 5678</p>
+                <p>contacto@gourmet.cl</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Gourmet Experience. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
