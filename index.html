@@ -41,12 +41,14 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content container">
-                <h1 class="fade-in">El Arte de la <br><span>Alta Cocina</span></h1>
-                <p class="fade-in">Una sinfonía de sabores diseñados para cautivar tus sentidos. Vive una experiencia gastronómica sin igual.</p>
-                <div class="hero-buttons fade-in">
-                    <a href="#menu" class="btn btn-secondary">Ver Menú</a>
-                    <a href="#reservations" class="btn btn-outline">Reservar Ahora</a>
-                </div>
+                <div class="hero-content">
+            <h1>GAZUZA</h1>
+            <p>Parrilladas & Sabores de Autor</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                <a href="#reservations" class="btn btn-outline">Reservar</a>
+            </div>
+        </div>
             </div>
             <div class="hero-overlay"></div>
         </section>
@@ -54,156 +56,106 @@
         <!-- Menu Section -->
         <section id="menu" class="menu-section section-padding">
             <div class="container">
-                <div class="section-header text-center">
-                    <span class="sub-title">Nuestra Pasión</span>
+                <div class="text-center mb-60">
+                    <span class="sub-title">Nuestra Carta</span>
                     <h2 class="section-title">Carta Gazuza</h2>
+                    <div class="menu-category-nav">
+                        <a href="#cat-dia" class="cat-link">Menú del Día</a>
+                        <a href="#cat-ejecutivo" class="cat-link">Ejecutivo</a>
+                        <a href="#cat-parrillas" class="cat-link">Parrillas</a>
+                        <a href="#cat-carnes" class="cat-link">Carnes</a>
+                        <a href="#cat-bebestibles" class="cat-link">Bebestibles</a>
+                        <a href="#cat-postres" class="cat-link">Postres</a>
+                    </div>
                 </div>
-
                 <div class="menu-categories-grid">
                     <!-- MENÚ DEL DÍA -->
-                    <div class="menu-category">
+                    <div id="cat-dia" class="menu-category">
                         <h3>Menú del Día</h3>
                         <div class="menu-grid">
                             <div class="menu-item-card featured">
                                 <h4>Menú del Día</h4>
-                                <p>Churrascas con pebre y salsa - Entrada - Fondo casero del día - Postre</p>
+                                <p>Churrascas con pebre - Entrada - Fondo casero - Postre</p>
                                 <span class="price">$6.990</span>
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- ENTRADAS -->
-                    <div class="menu-category">
-                        <h3>Entradas y Ensaladas Frías</h3>
-                        <div class="menu-grid">
                             <div class="menu-item-card">
-                                <h4>Ensalada Mixta</h4>
-                                <p>Lechuga mixta, tomate, apio, zanahoria, repollo rallado, pepino y rosal de palta.</p>
-                                <span class="price">$4.500</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Ensalada Chilena</h4>
-                                <p>Tomate y cebolla en pluma, aliñados con limón, aceite y sal.</p>
-                                <span class="price">$2.500</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Lechuga, Tomate, Palmito, Apio</h4>
-                                <p>Ligera ensalada de tomate, palmito y apio cortados.</p>
-                                <span class="price">$3.000</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Ensalada de Choclo Mayo</h4>
-                                <p>Ligera ensalada de choclo cocido con mayonesa.</p>
-                                <span class="price">$2.500</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Lechuga, Apio, Palta</h4>
-                                <p>Cama de lechuga con apio, palta y limón en gajos.</p>
-                                <span class="price">$3.000</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Papas Mayo</h4>
-                                <p>Tradicional porción de papas cocidas con mayonesa.</p>
-                                <span class="price">$2.500</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Ensalada del Día</h4>
-                                <p>Ensalada fresca del día o solo lechuga.</p>
-                                <span class="price">$1.500</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Empanada de queso</h4>
-                                <p>Deliciosa empanada de masa frita con relleno de queso gouda</p>
-                                <span class="price">$3.000</span>
+                                <h4>Consomé del Día</h4>
+                                <span class="price">$1.490</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- PARRILLADAS -->
-                    <div class="menu-category">
-                        <h3>Parrilladas</h3>
+                    <!-- MENÚ EJECUTIVO -->
+                    <div id="cat-ejecutivo" class="menu-category">
+                        <h3>Menú Ejecutivo</h3>
                         <div class="menu-grid">
                             <div class="menu-item-card featured">
+                                <h4>Menú Ejecutivo</h4>
+                                <p>ENTRADA - FONDO - POSTRE Y BEBESTIBLE</p>
+                                <span class="price">$10.990</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PARRILLAS -->
+                    <div id="cat-parrillas" class="menu-category">
+                        <h3>Parrillas</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
                                 <h4>Parrillada Individual</h4>
-                                <p>Asado carnicero, 1 chorizo, 1 chuleta, 1 prieta, 1 pechuga, papas rústicas, ensalada o arroz.</p>
+                                <p>Asado de carnicero, 1 chorizo, 1 chuleta de cerdo, 1 prieta, 1 pechuga grillada, papas rústicas, ensalada o arroz.</p>
                                 <span class="price">$18.990</span>
                             </div>
-                            <div class="menu-item-card featured">
-                                <h4>Parrillada para dos</h4>
-                                <p>2 lomo liso, 2 chuletas, 2 prietas, 2 longanizas, 2 pechugas, papas rústicas, ensalada o arroz.</p>
+                            <div class="menu-item-card">
+                                <h4>Parrillada para Dos</h4>
+                                <p>2 lomo liso, 2 chuletas de cerdo, 2 prietas, 2 longaniza, 2 pechugas grilladas, papas rústicas, ensalada o arroz.</p>
                                 <span class="price">$34.990</span>
                             </div>
                             <div class="menu-item-card featured">
-                                <h4>Parrillada familiar</h4>
-                                <p>4 Lomo liso, 4 chuletas, 3 prieta, 2 longanizas, 2 pechugas de pollo grilladas, 3 de entraña, porción de papas rústicas y ensalada o arroz.</p>
+                                <h4>Parrillada Familiar</h4>
+                                <p>4 Lomo liso, 4 chuletas, 3 prietas, 2 longanizas, 2 pechugas grilladas, 3 entraña, papas rústicas, ensalada o arroz.</p>
                                 <span class="price">$63.990</span>
                             </div>
                             <div class="menu-item-card featured">
                                 <h4>Parrillada Gazuza</h4>
-                                <p>4 filetes, 4 chuletas, 4 prietas, 4 longanizas, 4 pechugas, chunchules, papas, ensalada y arroz.</p>
+                                <p>4 filetes, 4 chuletas, 4 prietas, 4 longanizas, 4 pechugas grilladas, chunchules, papas rústicas, ensalada y arroz.</p>
                                 <span class="price">$74.990</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- PROTEINAS -->
-                    <div class="menu-category">
-                        <h3>Carnes y Proteínas</h3>
+                    <!-- CARNES Y PROTEÍNA -->
+                    <div id="cat-carnes" class="menu-category">
+                        <h3>Carnes y Proteína</h3>
                         <div class="menu-grid">
                             <div class="menu-item-card">
-                                <h4>Lomo liso</h4>
-                                <p>Lomo liso 350 gr</p>
-                                <span class="price">Desde: $12.000</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Filete</h4>
-                                <p>Filete 350 gr</p>
+                                <h4>Filete (350 gr)</h4>
                                 <span class="price">Desde: $14.190</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Pollo grillado con papas fritas</h4>
-                                <p>Pechuga de pollo grillada acompañada de crujientes papas fritas.</p>
-                                <span class="price">$6.590</span>
+                                <h4>Lomo Liso (350 gr)</h4>
+                                <span class="price">Desde: $12.000</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Chuleta de cerdo</h4>
-                                <p>Sabrosa chuleta de cerdo a las brasas.</p>
-                                <span class="price">Desde: $9.000</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Longaniza</h4>
-                                <p>Longaniza seleccionada a la parrilla.</p>
-                                <span class="price">Desde: $10.190</span>
-                            </div>
-                            <div class="menu-item-card">
-                                <h4>Asado de tira</h4>
-                                <p>Asado de tira 350gr</p>
+                                <h4>Entraña / Asado de Tira</h4>
                                 <span class="price">Desde: $16.300</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Entraña</h4>
-                                <p>Entraña 350gr</p>
-                                <span class="price">Desde: $17.000</span>
-                            </div>
-                            <div class="menu-item-card">
                                 <h4>Chunchules</h4>
-                                <p>Tiras seleccionadas de tripa aliñadas a la parrilla de 350gr</p>
+                                <p>Tiras seleccionadas de tripa aliñadas a la parrilla.</p>
                                 <span class="price">Desde: $10.400</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Pechuga de pollo grillado</h4>
-                                <p>Delicada pechuga de pollo a la parrilla.</p>
-                                <span class="price">Desde: $7.490</span>
+                                <h4>Chuleta de Cerdo</h4>
+                                <span class="price">Desde: $9.000</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Prietas 2 UNIDADES</h4>
-                                <p>Dos unidades de prietas artesanales.</p>
+                                <h4>Prietas (2 UNIDADES)</h4>
                                 <span class="price">$3.990</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Chorizo parrillero (2 und)</h4>
-                                <p>Dos unidades de chorizo tradicional.</p>
-                                <span class="price">$3.000</span>
+                                <h4>Longaniza / Chorizo Parrillero</h4>
+                                <span class="price">Desde: $3.000</span>
                             </div>
                         </div>
                     </div>
@@ -214,54 +166,204 @@
                         <div class="menu-grid">
                             <div class="menu-item-card">
                                 <h4>Pollo Entero Asado</h4>
-                                <p>Pollo entero jugoso asado a la perfección.</p>
-                                <span class="price">$20.490</span>
+                                <span class="price">Desde: $20.490</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Pollo entero con Papas</h4>
-                                <p>La combinación perfecta: Pollo entero + porción de papas.</p>
+                                <h4>Pollo Entero con Papas</h4>
                                 <span class="price">$22.000</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>1/2 Pollo con Papas / Pollo Grillado</h4>
+                                <span class="price">Desde: $6.590</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- PLATOS -->
+                    <!-- DESAYUNOS -->
                     <div class="menu-category">
-                        <h3>Platos Tradicionales</h3>
+                        <h3>Desayunos</h3>
                         <div class="menu-grid">
                             <div class="menu-item-card">
-                                <h4>Pastel de choclo</h4>
-                                <p>Típico pastel de choclo chileno de carne.</p>
-                                <span class="price">$9.990</span>
+                                <h4>Desayuno Tradicional / Chileno</h4>
+                                <span class="price">Desde: $3.500</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Ensalada César</h4>
-                                <p>Lechuga, crutones, parmesano y nuestra suave salsa César casera.</p>
-                                <span class="price">$5.500</span>
+                                <h4>Sandwich Churrasco Mañanero</h4>
+                                <span class="price">$5.590</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PLATOS Y ENSALADAS -->
+                    <div class="menu-category">
+                        <h3>Platos y Ensaladas</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <h4>Pastel de Choclo / Guatitas</h4>
+                                <span class="price">Desde: $4.500</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Carne Mechada</h4>
-                                <p>Tierna carne mechada preparada con receta de la casa.</p>
+                                <h4>Carne Mechada / Ensalada César</h4>
+                                <span class="price">Desde: $5.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Ensaladas (Mixta / Chilena)</h4>
+                                <span class="price">Desde: $1.500</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GUARNICIONES -->
+                    <div class="menu-category">
+                        <h3>Guarniciones</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <h4>Arroz / Puré / Papas Mayo</h4>
+                                <span class="price">$2.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Pure Picante (Merken)</h4>
+                                <span class="price">$2.700</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Fetuccini / Spaghetti</h4>
+                                <span class="price">$2.000 - $3.000</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Papas Fritas Grandes</h4>
                                 <span class="price">$5.990</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- POSTRES Y BEBESTIBLES (Simplified list for brevity) -->
+                    <!-- ZONA KIDS -->
                     <div class="menu-category">
-                        <h3>Postres y Bebidas</h3>
+                        <h3>Zona Kids</h3>
                         <div class="menu-grid">
                             <div class="menu-item-card">
-                                <h4>Leche asada / Arroz con leche</h4>
+                                <h4>Nuggets con Papas Fritas</h4>
+                                <span class="price">$4.990</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Colados / Guarniciones Kids</h4>
+                                <span class="price">Desde: $1.500</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BEBESTIBLES -->
+                    <div id="cat-bebestibles" class="menu-category">
+                        <h3>Bebestibles</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <h4>Bebida Lata</h4>
                                 <span class="price">$1.500</span>
                             </div>
                             <div class="menu-item-card">
-                                <h4>Mojitos (Sabores / Clásico)</h4>
+                                <h4>BEBIDA MENU EJECUTIVO</h4>
+                                <span class="price">$0</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Mojito Sin Alcohol</h4>
+                                <p>Clásico ($3.500) o Sabores ($3.800).</p>
                                 <span class="price">Desde $3.500</span>
                             </div>
                             <div class="menu-item-card">
+                                <h4>Bebidas CCU (Individual)</h4>
+                                <p>Pepsi, Pepsi Zero, Bilz, Pap, Limón Soda, Kem Piña, Crush, Zup.</p>
+                                <span class="price">$1.800</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Bebidas Coca-Cola (Individual)</h4>
+                                <p>Coca-Cola, Coca-Cola Zero, Fanta, Sprite.</p>
+                                <span class="price">$2.000</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Bebidas Familiares (1.5 L)</h4>
+                                <p>CCU ($3.000) o Coca-Cola ($3.200).</p>
+                                <span class="price">Desde $3.000</span>
+                            </div>
+                            <div class="menu-item-card">
                                 <h4>Jugos Naturales</h4>
+                                <p>Mango Maracuyá, Frutilla, Chirimoya, Frambuesa, Piña, Naranja.</p>
                                 <span class="price">$3.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Limonadas</h4>
+                                <p>Clásica ($2.500), Menta Jengibre ($3.500) o Sabores ($3.800).</p>
+                                <span class="price">Desde $2.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Aguas Minerales (500cc)</h4>
+                                <p>Sin gas, con gas, semi gas.</p>
+                                <span class="price">$1.500</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CAFETERÍA -->
+                    <div class="menu-category">
+                        <h3>Cafetería</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <h4>Capuccino / Vainilla</h4>
+                                <p>Espresso con leche, opcional esencia de vainilla.</p>
+                                <span class="price">$1.800</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Latte / Moka</h4>
+                                <p>Mezcla perfecta de espresso y leche.</p>
+                                <span class="price">$1.800</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Expresso / Café Tradicional</h4>
+                                <p>Café concentrado o instantáneo.</p>
+                                <span class="price">$1.800</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Milo / Té o Infusión</h4>
+                                <span class="price">$1.800 / $1.500</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- POSTRES -->
+                    <div id="cat-postres" class="menu-category">
+                        <h3>Postres</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <h4>Mote con Huesillo</h4>
+                                <span class="price">$2.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Durazno a la Crema</h4>
+                                <p>Durazno con crema chantilly.</p>
+                                <span class="price">$2.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Arroz con Leche</h4>
+                                <p>Cocido con canela, naranja y vainilla.</p>
+                                <span class="price">$1.500</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Jalea del Día</h4>
+                                <span class="price">$1.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EXTRAS & SALSAS -->
+                    <div class="menu-category">
+                        <h3>Extras y Salsas</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item-card">
+                                <h4>Huevo Frito / Pan Amasado</h4>
+                                <span class="price">Desde $650</span>
+                            </div>
+                            <div class="menu-item-card">
+                                <h4>Palta / Salsas de la Casa</h4>
+                                <p>BBQ, Verde, Parrillera.</p>
+                                <span class="price">Desde $990</span>
                             </div>
                         </div>
                     </div>
@@ -317,31 +419,33 @@
                 <div class="location-map">
                     <span class="sub-title">Encuéntranos</span>
                     <h2>Nuestra Ubicación</h2>
-                    <p>Av. Principal 123, Región Metropolitana, Chile</p>
-                    <div class="map-container">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.123456789!2d-70.64827!3d-33.44889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a0d5c0b0b1%3A0x1234567890abcdef!2sSantiago%2C%20Chile!5e0!3m2!1ses!2scl!4v1620000000000!5m2!1ses!2scl" 
-                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
-                        </iframe>
-                    </div>
-                </div>
-                <div class="contact-info-plus">
-                    <span class="sub-title">Contacto</span>
-                    <h2>Habla con Nosotros</h2>
-                    <div class="contact-methods">
-                        <div class="method">
-                            <i class="icon">📞</i>
-                            <p>+56 9 1234 5678</p>
+                    <div class="contact-grid">
+                        <div class="contact-methods">
+                            <div class="method-card">
+                                <i class="fas fa-phone"></i>
+                                <h4>Teléfono</h4>
+                                <p>+56 9 6197 2149</p>
+                                <a href="tel:+56961972149" class="method-link">Llamar Ahora</a>
+                            </div>
+                            <div class="method-card">
+                                <i class="fab fa-whatsapp"></i>
+                                <h4>WhatsApp</h4>
+                                <p>Pedidos y Consultas</p>
+                                <a href="https://api.whatsapp.com/send?phone=56961972149&text=Hola%F0%9F%91%8B%F0%9F%8F%BC...%20Me%20gustar%C3%ADa%20hacer%20un%20pedido%20%F0%9F%98%8B" class="method-link" target="_blank">Enviar Mensaje</a>
+                            </div>
+                            <div class="method-card">
+                                <i class="fab fa-instagram"></i>
+                                <h4>Instagram</h4>
+                                <p>@gazuzarestaurant</p>
+                                <a href="https://www.instagram.com/gazuzarestaurant/" class="method-link" target="_blank">Seguir</a>
+                            </div>
                         </div>
-                        <div class="method">
-                            <i class="icon">✉️</i>
-                            <p>contacto@gazuza.cl</p>
+                        <div class="location-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.851996503468!2d-71.5543!3d-33.023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0cf55555555%3A0x5555555555555555!2sSim%C3%B3n%20Bol%C3%ADvar%20326%2C%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso!5e0!3m2!1sen!2scl!4v1700000000000!5m2!1sen!2scl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <div class="address-card">
+                                <p><strong>Ubicación:</strong> Simón Bolívar 326, 2200055 Viña del Mar, Valparaíso</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="social-links-large">
-                        <a href="https://instagram.com/gazuzarestaurant" class="social-btn instagram" target="_blank">Instagram</a>
-                        <a href="https://facebook.com/gazuzarestaurant" class="social-btn facebook" target="_blank">Facebook</a>
-                        <a href="https://wa.me/56912345678" class="social-btn whatsapp" target="_blank">WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -370,9 +474,9 @@
             </div>
             <div class="footer-contact">
                 <h4>Contacto</h4>
-                <p>Av. Principal 123, Ciudad</p>
-                <p>+56 9 1234 5678</p>
-                <p>contacto@gazuza.cl</p>
+                <p>Simón Bolívar 326, Viña del Mar, Valparaíso</p>
+                <p>+56 9 6197 2149</p>
+                <p>reservas@gazuzarestaurant.cl</p>
             </div>
         </div>
         <div class="footer-bottom container">
